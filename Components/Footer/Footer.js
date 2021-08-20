@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import Link from 'next/Link';
+/* import Link from 'next/Link'; */
 
 import styles from '../../styles/Footer.module.scss'
 
@@ -14,8 +14,8 @@ export default function Footer() {
                             <span className="strong">All copyrights are reserved</span>
                         </Col>
                         <Col className="d-flex justify-content-end">
-                            <Link href="/impressum.php"><a className="px-2">Privacy</a></Link>
-                            <Link href="/datenschutz.php"><a className="px-2">Imprint</a></Link>
+                            {/* <Link href="/impressum.php"><a className="px-2">Privacy</a></Link>
+                            <Link href="/datenschutz.php"><a className="px-2">Imprint</a></Link> */}
                         </Col>
                     
                 
