@@ -1,4 +1,4 @@
-import Link from 'next/Link';
+import Link from 'next/link';
 import Logo from './Logo'
 import Links from './Links'
 import { Container, Nav, Navbar } from 'react-bootstrap';
