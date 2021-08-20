@@ -1,0 +1,48 @@
+/* COLORS */
+
+$color-primary: #a01624;
+$color-primary-hover: darken($color-primary, 20%);
+$color-secondary: #9c9c9c;
+$color-white: #fff;
+$color-dark: #222;
+$color-list: $color-dark;
+$color-link: $color-dark;
+$color-header: $color-dark;
+$color-footer: $color-dark;
+$color-info: $color-dark;
+$color-body: $color-dark;
+$color-border: #efefef;
+$color-shadow: #0000001a;
+$color-link-hover: lighten($color-dark,20%);
+
+/* FONTS */
+$font-primary: "Montserrat", "Open Sans", sans-serif;
+
+
+/* PLACE HOLDERS */
+
+%icon-box-before {
+	content: '';
+	position: absolute;
+	background: lighten($color-secondary, 35);
+	right: -60px;
+	top: -40px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	transition: all 0.3s;
+	z-index: -1;
+}
+
+%btn-primary {
+	display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 10px;
+    border: 2px solid $color-primary;
+    color: $color-primary;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: $font-primary;
+    font-weight: 600;
+    transition: 0.3s;
+}

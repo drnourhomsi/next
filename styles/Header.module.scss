@@ -1,0 +1,67 @@
+@import "sass/variables";
+
+.logotext {
+  display: flex;
+  letter-spacing: -1px;
+  font-size: 1.4em;
+  font-weight: 700;
+  line-height: .2;
+  padding-top: 10px;
+
+  &_sub {
+    font-weight: 100;
+    font-size: 0.66em;
+  }
+}
+
+/*
+.header {
+  transition: all 0.5s;
+  padding: 15px 0;
+  border-bottom: 1px solid $color-border;
+  border-top: 1px solid $color-border;
+  background: $color-white;
+
+  &.header-scrolled {
+    box-shadow: 0 0 20px 0px $color-shadow;
+    padding: 5px 0;
+    bottom: auto;
+    top: 0;
+
+    .logo img {
+      max-height: 35px;
+    }
+  }
+
+  
+  .logo {
+    h1 {
+      font-size: 32px;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      font-weight: 700;
+      letter-spacing: 1px;
+
+      a {
+        color: $color-link;
+        text-decoration: none;
+
+        &:hover {
+          color: $color-link-hover;
+          text-decoration: none;
+        }
+      }
+    }
+
+    img {
+      padding: 0;
+      margin: 0;
+      max-height: 40px;
+      transition: all 0.5s;
+    }
+  }
+
+
+}
+*/

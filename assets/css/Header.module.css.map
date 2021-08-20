@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,AAAC,CACR,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,IAAI,CACpB,SAAS,CAAE,KAAK,CAChB,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,EAAE,CACf,WAAW,CAAE,IAAI,CAMlB,AAJE,AAAD,aAAK,AAAC,CACJ,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,MAAM,CAClB",
+    "sources": [
+        "../../styles/Header.module.scss",
+        "../../styles/sass/_variables.scss"
+    ],
+    "names": [],
+    "file": "Header.module.css"
+}

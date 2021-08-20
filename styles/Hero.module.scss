@@ -1,0 +1,58 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+.hero {
+    @include media-breakpoint-up(lg) {
+        height: 40rem;
+    }
+}
+
+.rounded_35 {
+    border-radius: 35px;
+}
+
+.mainTitle {
+    margin: 0 0 10px 0;
+    line-height: 0.9em;
+    color: #222;
+    letter-spacing: -4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 5em;
+
+    @include media-breakpoint-up(xl) {
+        font-size: 7em;
+    }
+    @include media-breakpoint-down(lg) {
+        font-size: 5em;
+    }
+    @include media-breakpoint-down(sm) {
+        font-size: 4em;
+    }
+
+    &_Sub {
+        font-family: monospace;
+        color: #333;
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: normal;
+    }
+}
+
+.socialmedia {
+    &_list {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
+
+    &_item {
+        &:hover {
+            text-decoration-line: underline;
+        }
+    }
+}

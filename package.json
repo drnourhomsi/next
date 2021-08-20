@@ -1,0 +1,27 @@
+{
+  "name": "nour-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^5.0.2",
+    "next": "^11.1.0",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-dom": "17.0.2",
+    "remixicon": "^2.5.0",
+    "sass": "^1.38.0"
+  },
+  "devDependencies": {
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1"
+  }
+}

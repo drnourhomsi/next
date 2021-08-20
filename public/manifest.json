@@ -1,0 +1,76 @@
+{
+    "name": "Web & Graphic Designer | Nour Homsi",
+    "short_name": "Nour_Homsi",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#a01624",
+    "theme_color": "#a01624",
+    "orientation": "portrait-primary",
+    "categories": ["Programming", "Design", "Education"],
+    "shortcuts": [
+        {
+            "name": "Webdesign",
+            "short_name": "Webdesign",
+            "description": "Im transparenten Internet trennt sich die spreu vom weizen",
+            "url": "/webdesign/",
+            "icons": [{
+                "src": "/img/favico/android-chrome-192x192.png",
+                "sizes": "192x192"
+            }]
+        }
+    ],
+    "icons": [{
+            "src": "/img/favico/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/img/favico/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/img/favico/apple-touch-icon.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "/img/favico/favicon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/img/favico/favicon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/img/favico/mstile-150x150.png",
+            "type": "image/png",
+            "sizes": "270x270"
+        },
+        {
+            "src": "/img/favico/512x512-maskable.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/img/favico/512x512-monochrome.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "monochrome"
+        }
+    ],
+    "screenshots": [{
+            "src": "/img/manifest/screenshot-desktop.webp",
+            "sizes": "1280x720",
+            "type": "image/webp"
+        },
+        {
+            "src": "/img/manifest/screenshot-mobile.webp",
+            "sizes": "375x665",
+            "type": "image/webp"
+        }
+    ]
+}

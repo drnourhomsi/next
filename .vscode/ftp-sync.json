@@ -1,0 +1,27 @@
+{
+    "remotePath": "./nourhomsi.com/teil",
+    "host": "host",
+    "username": "ftp_18498",
+    "password": "$n13coL7ksdmfgz&ujd",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
