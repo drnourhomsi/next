@@ -1,5 +1,4 @@
 import { Container, Row, Col } from 'react-bootstrap'
-/* import Link from 'next/Link'; */
 
 import styles from '../../styles/Footer.module.scss'
 
